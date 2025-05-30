@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hossain - Technical Specialist & Assistant Manager</title>
+    <!-- Google Fonts - Using a font similar to "Funnel Sans" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+    <style>
+      /* Fallback font styling */
+      :root {
+        --navy: #2B4F76;
+        --teal: #6A9DAB;
+        --mint: #A6D8C9;
+        --cream: #F7F7DC;
+      }
+      
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: var(--cream);
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: var(--teal);
+        border-radius: 5px;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: var(--navy);
+      }
+      
+      /* Page transitions */
+      .page-transition-enter {
+        opacity: 0;
+      }
+      
+      .page-transition-enter-active {
+        opacity: 1;
+        transition: opacity 300ms;
+      }
+      
+      .page-transition-exit {
+        opacity: 1;
+      }
+      
+      .page-transition-exit-active {
+        opacity: 0;
+        transition: opacity 300ms;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
