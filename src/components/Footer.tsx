@@ -16,14 +16,14 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex space-x-4">
               <motion.a 
-                href="mailto:hossain@example.com" 
+                href="mailto:hsarkersalina@gmail.com" 
                 whileHover={{ scale: 1.1 }}
                 className="w-10 h-10 rounded-full bg-teal/20 flex items-center justify-center hover:bg-mint transition-colors duration-300"
               >
                 <Mail size={18} className="text-cream" />
               </motion.a>
               <motion.a 
-                href="tel:+8801234567890" 
+                href="tel:+8801736578825" 
                 whileHover={{ scale: 1.1 }}
                 className="w-10 h-10 rounded-full bg-teal/20 flex items-center justify-center hover:bg-mint transition-colors duration-300"
               >
@@ -90,7 +90,9 @@ const Footer: React.FC = () => {
                 <li>
                   <motion.a 
                     whileHover={{ x: 5 }}
-                    href="#" 
+                    href="https://wa.me/8801736578825" 
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-cream/70 hover:text-mint transition-colors duration-300 flex items-center"
                   >
                     WhatsApp
@@ -100,7 +102,7 @@ const Footer: React.FC = () => {
                 <li>
                   <motion.a 
                     whileHover={{ x: 5 }}
-                    href="mailto:hossain@example.com" 
+                    href="mailto:hsarkersalina@gmail.com" 
                     className="text-cream/70 hover:text-mint transition-colors duration-300 flex items-center"
                   >
                     Email
@@ -115,7 +117,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-cream/10 pt-6 mt-8 text-center">
           <p className="text-cream/50 text-sm">&copy; {currentYear} Hossain. All rights reserved.</p>
           <p className="text-cream/30 text-xs mt-2">
-            Made with ❤️ by{' '}
+            Made by{' '}
             <a 
               href="https://yusuf-faisal.netlify.app/" 
               target="_blank" 

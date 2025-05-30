@@ -23,7 +23,7 @@ const Contact: React.FC = () => {
                 </div>
                 <h3 className="text-lg font-semibold text-navy mb-2">Phone</h3>
                 <a href="tel:+8801234567890" className="text-teal hover:text-navy transition-colors">
-                  +880 1234 567890
+                  +880 1736578225
                 </a>
               </motion.div>
 
@@ -36,7 +36,7 @@ const Contact: React.FC = () => {
                 </div>
                 <h3 className="text-lg font-semibold text-navy mb-2">Email</h3>
                 <a href="mailto:hossain.sarker@example.com" className="text-teal hover:text-navy transition-colors">
-                  hossain.sarker@example.com
+                  hsarkersalina@gmail.com
                 </a>
               </motion.div>
 
@@ -57,7 +57,7 @@ const Contact: React.FC = () => {
 
             <div className="text-center mt-12">
               <motion.a
-                href="mailto:hossain.sarker@example.com"
+                href="mailto:hsarkersalina@gmail.com"
                 className="inline-flex items-center px-8 py-4 bg-navy text-cream rounded-lg font-semibold hover:bg-teal transition-colors duration-300"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
