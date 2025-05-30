@@ -90,7 +90,7 @@ const Footer: React.FC = () => {
                 <li>
                   <motion.a 
                     whileHover={{ x: 5 }}
-                    href="https://wa.me/8801736578825" 
+                    href="https://wa.me/8801685648316" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-cream/70 hover:text-mint transition-colors duration-300 flex items-center"

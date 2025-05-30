@@ -23,7 +23,7 @@ const Contact: React.FC = () => {
                 </div>
                 <h3 className="text-lg font-semibold text-navy mb-2">Phone</h3>
                 <a href="tel:+8801234567890" className="text-teal hover:text-navy transition-colors">
-                  +880 1736578225
+                +880 1685648316 || +880 1736578225
                 </a>
               </motion.div>
 
@@ -36,7 +36,7 @@ const Contact: React.FC = () => {
                 </div>
                 <h3 className="text-lg font-semibold text-navy mb-2">Email</h3>
                 <a href="mailto:hossain.sarker@example.com" className="text-teal hover:text-navy transition-colors">
-                  hsarkersalina@gmail.com
+                  hossain.abdul@yahoo.com.sg || hsarkersalina@gmail.com
                 </a>
               </motion.div>
 
